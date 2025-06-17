@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.bgcolor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 173, 173);
+    height:25vh;
+    width: 100%;
+    padding: 10px;
+}
+.bg1{
+    
+    background-color: silver;
+    height: 22vh;
+    width: 49%;
+
+}
+
+.bg2{
+    
+    background-color: skyblue;
+    height:22vh;
+    width: 49%;
+}
+
+.bgcolor2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rebeccapurple;
+    height: 38vh;
+    width: 100%;
+    /* padding: 10px; */
+    justify-content: space-around;
+}
+
+.c1{
+    background-color: azure;
+    height: 35vh;
+    width: 24%;
+}
+.c2{
+    background-color: rgb(88, 194, 221);
+    height: 35vh;
+    width: 24%;
+}
+.c3{
+    background-color: rgb(75, 255, 255);
+    height: 35vh;
+    width: 24%;
+}
+.c4{
+    background-color: rgb(245, 16, 81);
+    height: 35vh;
+    width: 24%;
+}
+
+.bgcolor3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(232, 19, 232);
+    height: 38vh;
+    width: 100%;
+    padding: 10px;
+    
+
+}
+
+.c5{
+    background-color: rgb(35, 245, 16);
+    height: 35vh;
+    width: 32%;
+}
+
+.c6{
+    background-color: rgb(16, 165, 245);
+    height: 35vh;
+    width: 32%;
+}
+
+.c7{
+    background-color: rgb(66, 16, 245);
+    height: 35vh;
+    width: 32%;
+}

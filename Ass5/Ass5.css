@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.left{
+    height: 100vh;
+    width: 70%;
+}
+
+.ltop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(71, 186, 21);
+    height: 30vh;
+    width: 100%;
+    }
+
+    .ltop1{
+        background-color: rgb(126, 235, 79);
+        height: 27vh;
+        width: 47%;
+    }
+    .ltop2{
+        background-color:rgb(126, 235, 79) ;
+        height: 27vh;
+        width: 47%;
+    }
+    .lbottom{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70vh;
+        width: 100%;
+       
+    }
+
+    .l1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color:rgb(168, 21, 21);
+        height: 70vh;
+        width: 70%;
+    }
+
+    .l1a{
+        background-color: orange;
+        height:45vh ;
+        width:44% ;
+    }
+    .l1b{
+        background-color:orange;
+        height: 45vh;
+        width: 44%;
+    }
+    .l1c{
+        background-color: orange;
+        height: 16vh;
+        width: 95%;
+        margin-top: 15px;
+    }
+
+    .l2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: orangered;
+        height: 70vh;
+        width: 30%;
+        
+    }
+    .l2a{
+        background-color: orange;
+        height: 30vh;
+        width: 75%;
+
+
+    }
+    .l2b{
+
+        background-color: orange;
+        height: 30vh;
+        width: 75%;
+    }
+
+    
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(168, 21, 21);
+    height: 100vh;
+    width: 30%;
+}
+
+.rtop{
+    background-color: orange;
+    height: 40vh;
+    width: 80%;
+
+}
+.rbottom{
+    background-color: orange;
+    height: 40vh;
+    width: 80%;
+
+}
